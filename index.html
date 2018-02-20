@@ -1,72 +1,19 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <script type='text/javascript' src="jquery-3.3.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-
-  <body>
-    <header>
-      <div class="container">
-        <ul id = "navigation">
-          <li>placeholder</li>
-          <li>placeholder</li>
-          <li>placeholder</li>
-          <li>placeholder</li>
-        </ul>
-      </div>
-    </header>
-
-    <div class="container">
-	
-	  <div id="Photos">
-        <div id="thumbnails">
-		  <div class="display">
-		    <img id="main-photo" src="photos/p1.jpeg" height ="300" width="600" />
-		  </div>
-          <img src="photos/p1.jpeg" height="50" width = "90" />
-          <img src="photos/p2.jpg" height="50" width = "90" />
-          <img src="photos/p3.jpg" height="50" width = "90" />
-          <img src="photos/p4.jpg" height="50" width = "90" />
-          <img src="photos/p5.jpg" height="50" width = "90" />
-          <img src="photos/p6.png" height="50" width = "90" />
+    <head>
+        <title> Ticket Thingimajig </title>
+        <script crossorigin src="https://unpkg.com/react/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+        <link rel="stylesheet" href="./css/simple-grid.css">
+        <link rel="stylesheet" href="./css/app.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <div id="root">
         </div>
-
-      </div>
-	
-      <div id="Content">
-        <div id="title">
-          <li>placeholder title</li>
-        </div>
-        <div id="description">
-          <p>
-            placeholder paragraph description
-          </p>
-        </div>
-        <ul id="contact info">
-          <li>city</li>
-          <li>country</li>
-          <li>address1</li>
-          <li>address2</li>
-          <li>postal code</li>
-          <li>telephone</li>
-          <li>email</li>
-        </ul>
-        <div id="time">
-          <li>time</li>
-        </div>
-        <div id="price">
-          <li>price</li>
-        </div>
-        <div id="purchase">
-          <li>purchase link here</li>
-        </div>
-      </div>
-
-    </div>
-    
-    <script type='text/javascript' src="details.js"></script>
-
-  </body>
-
+    </body>
+    <script src="./build/app.js"></script>
+    <script src="./build/search.js"></script>
+    <script src="./build/results.js"></script>
+    <script src="./build/details.js"></script>
 </html>
